@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://BattleScript.gd" type="Script" id=1]
+[ext_resource path="res://BattleScript.cs" type="Script" id=1]
 
 [node name="BattleGUI" type="Control"]
 anchor_right = 1.0
@@ -55,29 +55,29 @@ margin_right = 52.0
 margin_bottom = 44.0
 text = "Spell"
 
-[node name="Enemy Data" type="Node2D" parent="Panel"]
+[node name="EnemyData" type="Node2D" parent="Panel"]
 position = Vector2( 350, 0 )
 
-[node name="Enemy1Label" type="Label" parent="Panel/Enemy Data"]
+[node name="Enemy1Label" type="Label" parent="Panel/EnemyData"]
 margin_right = 72.0
 margin_bottom = 14.0
 text = "Enemy 1"
 
-[node name="Enemy2Label" type="Label" parent="Panel/Enemy Data"]
+[node name="Enemy2Label" type="Label" parent="Panel/EnemyData"]
 visible = false
 margin_top = 18.0
 margin_right = 72.0
 margin_bottom = 32.0
 text = "Enemy 2"
 
-[node name="Enemy3Label" type="Label" parent="Panel/Enemy Data"]
+[node name="Enemy3Label" type="Label" parent="Panel/EnemyData"]
 visible = false
 margin_top = 36.0
 margin_right = 72.0
 margin_bottom = 50.0
 text = "Enemy 3"
 
-[node name="Enemy4Label" type="Label" parent="Panel/Enemy Data"]
+[node name="Enemy4Label" type="Label" parent="Panel/EnemyData"]
 visible = false
 margin_top = 54.0
 margin_right = 72.0
